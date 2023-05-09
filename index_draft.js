@@ -1,7 +1,7 @@
 const { Telegraf, Markup, Extra } = require('telegraf');
 const { message } = require('telegraf/filters');
 require('dotenv').config();
-const text = require('./const');
+const text = require('./help_text');
 
 const axios = require('axios');
 
